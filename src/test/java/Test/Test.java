@@ -47,7 +47,7 @@ public class Test {
 	
 	@AfterClass
 	public static void teadrown() {
-		System.out.println("Testing is finished");
+		System.out.println("Testing is finished!!!");
 		driver.manage().deleteAllCookies();
 		driver.close();
 	}
